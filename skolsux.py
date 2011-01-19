@@ -7,10 +7,16 @@
 # ------------------------------------------------------
 #
 # Yes, yes, regex... I know.
+#
 from BeautifulSoup import BeautifulSoup
-import urllib2
+import urllib2, sys
 
-arg = '60' 
+if len(sys.argv) < 2:
+  print 'No schoolid, assuming id=44.'
+  arg = '44'
+
+else:
+  arg = sys.argv[1]
 
 tree = urllib2.urlopen('http://schoolsout.com/view/school/%s' % arg)
 

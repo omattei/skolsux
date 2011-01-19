@@ -4,7 +4,11 @@
 
 # SYNOPSIS
 
-	skolsux.py 
+	skolsux.py  [schoolid]
+
+### SCHOOLID
+
+  Your school id can be found by using [School's Out.](http://www.schoolsout.com/view/find)
 
 # AUTHOR
 

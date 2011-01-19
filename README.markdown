@@ -14,7 +14,7 @@
 
 Report bugs and feature requests at the issue tracker
 
-<http://github.com/openinja/foo/issues>
+<http://github.com/openinja/skolsux/issues>
 
 # COPYRIGHT
 
